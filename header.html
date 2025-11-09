@@ -1,0 +1,55 @@
+<!-- header.html --><%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<header class="main-header">
+  
+ <h1>🚍 TransitHub</h1>
+  <nav class="nav-links">
+    <a href="dashboard.jsp">Dashboard</a>
+    <a href="manage_routes.jsp">Routes</a>
+    <a href="../index.jsp">Home</a>
+    <a href="#">Logout</a>
+  </nav>
+</header>
+
+<style>
+  .main-header {
+    background: linear-gradient(90deg, #1e3a8a, #2563eb);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    color: white;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .logo {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+  }
+
+  .title {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+  .nav-links a:hover {
+    opacity: 0.8;
+  }
+</style>

@@ -1,0 +1,12 @@
+body { font-family: Arial; background:#f4f4f4; margin:0; }
+.navbar { background:#2563eb; color:white; padding:1rem 2rem; display:flex; justify-content:space-between; align-items:center; }
+.container { background:white; max-width:1000px; margin:2rem auto; padding:2rem; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.1); }
+.stats-grid { display:flex; gap:1rem; justify-content:space-around; margin-bottom:2rem; }
+.card { background:white; border:2px solid #2563eb; border-radius:10px; padding:1rem; width:150px; text-align:center; color:#2563eb; font-weight:bold; }
+.card span { font-size:1.5rem; display:block; margin-top:0.5rem; }
+button { background:#2563eb; color:white; border:none; padding:0.5rem 1rem; border-radius:5px; cursor:pointer; }
+button:hover { background:#1e40af; }
+table { width:100%; border-collapse:collapse; margin-top:1rem; }
+th, td { border:1px solid #ddd; padding:0.6rem; text-align:center; }
+th { background:#2563eb; color:white; }
+input { padding:0.5rem; margin-right:0.5rem; border:1px solid #ccc; border-radius:5px; }
